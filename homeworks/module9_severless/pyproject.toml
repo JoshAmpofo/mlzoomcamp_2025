@@ -1,0 +1,11 @@
+[project]
+name = "module9-severless"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "keras-image-helper>=0.0.2",
+    "onnxruntime>=1.23.2",
+    "scikit-learn>=1.8.0",
+]
