@@ -1,0 +1,14 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: mlzoomcamp-eks
+  region: eu-west-1
+
+nodeGroups:
+  - name: ng-m7iflex-large
+    instanceType: m7i-flex.large
+    desiredCapacity: 1
+    volumeSize: 80
+    ssh:
+      allow: false
